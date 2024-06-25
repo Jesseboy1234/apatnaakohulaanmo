@@ -46,17 +46,27 @@
 
 /* mech_instructions */
 #mech_instructions {
-    background-color: rgba(34, 17, 121, 0.8);
+    background-color: rgb(224, 175, 69);
     border-radius: 10px;
-    padding: 0 5px 0 5px;
+    padding: 0 2rem 0;
+    text-align: left;
+    margin: 10px 0;
+    box-shadow: 5px 5px 5px black;
 }
 
-/* p tags mechanics */
-.intructions {
+/* ul tags mechanics */
+#mech_instructions ul {
     pointer-events: none;
-    color: #e0af45;
+    color: #000000;
     font-size: 2em;
-    text-shadow: 2px 2px 2px black;
+    list-style-type: circle;
+    padding: 5px 2rem 5px 2rem;
+    margin-bottom: 2rem;
+}
+
+#mech_instructions ul li {
+    padding-bottom: 10px;
+    width: 100%;
 }
 
 /* select screen btn container */
